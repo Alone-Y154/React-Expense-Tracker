@@ -35,7 +35,7 @@ import { useEffect, useState } from "react";
         updateIncome(inc);
     }
 
-    useEffect(() => calculateBalance(),[transaction]);
+    useEffect(() => calculateBalance());
 
     return(
         <Container>
