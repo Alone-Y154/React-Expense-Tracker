@@ -68,7 +68,7 @@ const Cell = styled.div`
 
     }
 
-    useEffect(() => filterData(searchText),[props.transaction]);
+    useEffect(() => filterData(searchText));
     return(
         <Container>
             Transaction
